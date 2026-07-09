@@ -1,0 +1,3 @@
+MAIL_USERNAME=josefinariedel9@gmail.com
+MAIL_PASSWORD=miabrjojxofeypds
+FLASK_SECRET_KEY=141180

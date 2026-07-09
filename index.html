@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles.css">
+    <script src="../static/app.js"></script>
+    <title>Natura Cosmeticos</title>
+</head>
+<body>
+    <nav class="navbar">
+    <div class="logo">CONSULTORA FLORENCIA GARCIA</div>
+         <ul class="nav-links">
+             <li><a href="#inicio">INICIO</a></li>
+             <li><a href="#servicios">SERVICIOS</a></li>
+             <li><a href="#Contacto">CONTACTO</a></li>
+             <li><a href="#acerca">ACERCA DE NOSOTROS</a></li>
+        </ul>
+         <button class="burger"></button>
+             <span></span>
+             <span></span>
+             <span></span>
+        </button>
+    </nav>
+
+    <header class="hero-section">
+        <h1>Bienvenido a nuestra pagina web</h1>
+        <p class="hero-subtitle">Descubre nuestros servicios y mas</p>
+        <a href="https://www.naturacosmeticos.com.ar/consultoria/florenciagarcia14" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Descubrir mas</a>
+    
+    </header>
+
+   </main>
+     
+   <section id="servicios" class="cards-container">
+       <h2 class= "titulo-centrado">Nuestros servicios</h2>
+       <div class="cards">
+            
+            <div class="card">
+                 <h3>Servicio 1</h3>
+                 <p>Descripcion breve de este servicios</p>
+            </div>
+            
+            <div class="card">
+                 <h3>Servicio 2</h3>
+                 <p>Descripcion breve de este servicios</p>
+            </div>
+            
+            <div class="card">
+                 <h3>Servicio 3</h3>
+                 <p>Descripcion breve de este servicios</p>
+            </div>
+            
+        </div>
+    </section>
+        <section id="Contacto" class="contact-container">
+            <h2 class= "titulo-centrado">Contacto</h2>
+            <form id="contact-form" method="POST" action="/send_email">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electronico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+ 
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+
+        <div id="flash-messages" class="flash-messages"></div>
+
+        <section id="acerca" class="about-section">
+            <h2>Acerca de nosotros</h2>
+            <p>Consultora de Natura Cosmeticos Argentina hace 15 años. Este es un espacio diseñado para que puedan visualizar nuestras ofertas.</p>
+
+        </section>  
+
+    <main>
+
+    <footer>
+        <p>&copy; 2026 Todos los derechos reservados.</p>
+    </footer>
+    
+    <a href="https://wa.me/1123270281" class="btn-whatsapp" target="_blank">
+        Escribinos por Whatsapp
+    </a>
+
+</body>
+</html>
